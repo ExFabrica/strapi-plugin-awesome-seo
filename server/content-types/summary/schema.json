@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms-analyser-summaries",
+  "info": {
+    "singularName": "summary",
+    "pluralName": "summaries",
+    "collectionName": "cms-analyser-summaries",
+    "displayName": "CmsAnalyzerSummaries",
+    "description": "Cms Analyzer Results summary"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "frontUrl": {
+      "type": "string"
+    },
+    "nbUrl": {
+      "type": "integer"
+    },
+    "nbErrorLow" : {
+      "type": "integer"
+    },
+    "nbErrorHigh" : {
+      "type": "integer"
+    },
+    "user" : {
+      "type": "string"
+    },
+    "date" :{
+      "type": "datetime"
+    }
+  }
+}

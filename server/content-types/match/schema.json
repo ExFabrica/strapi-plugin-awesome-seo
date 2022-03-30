@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms-analyser-matches",
+  "info": {
+    "singularName": "match",
+    "pluralName": "matches",
+    "collectionName": "cms-analyser-matches",
+    "displayName": "CmsAnalyzerMatches",
+    "description": "Cms Analyzer matches"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "apiName": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    },
+    "tagName": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "dynamicZoneName": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "isMultipleDoc": {
+      "type": "boolean"
+    }
+  }
+}

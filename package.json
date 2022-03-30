@@ -1,0 +1,36 @@
+{
+  "name": "@exfabrica/plugin-cms-analyzer",
+  "private": false,
+  "version": "1.0.0-beta.16",
+  "description": "First Exfabrica Strapi Plugin.",
+  "strapi": {
+    "name": "cms-analyzer",
+    "icon": "plug",
+    "description": "Awesome SEO crawls your front website to display in Strapi tips and rating to boost your SEO.",
+    "kind": "plugin",
+    "displayName": "Awesome SEO"
+  },
+  "dependencies": {
+    "@exfabrica/cms-engine-analyzer": "^0.9.4",
+    "@strapi/utils": "4.0.7"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "author": {
+    "name": "Exfabrica.io",
+    "email": "research@exfabrica.io",
+    "url": "https://exfabrica.io"
+  },
+  "maintainers": [
+    {
+      "name": "Exfabrica.io",
+      "email": "research@exfabrica.io",
+      "url": "https://exfabrica.io"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
