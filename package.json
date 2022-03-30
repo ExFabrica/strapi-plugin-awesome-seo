@@ -1,8 +1,8 @@
 {
-  "name": "@exfabrica/plugin-cms-analyzer",
+  "name": "@exfabrica/strapi-plugin-awesome-seo",
   "private": false,
-  "version": "1.0.0-beta",
-  "description": "First Exfabrica Strapi Plugin.",
+  "version": "1.0.0-beta.1",
+  "description": "First exFabrica Strapi Plugin.",
   "strapi": {
     "name": "cms-analyzer",
     "icon": "plug",
@@ -15,15 +15,17 @@
     "@strapi/utils": "4.0.7"
   },
   "devDependencies": {},
-  "peerDependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi": "4.0.7"
+  },
   "author": {
-    "name": "Exfabrica.io",
+    "name": "exFabrica.io",
     "email": "research@exfabrica.io",
     "url": "https://exfabrica.io"
   },
   "maintainers": [
     {
-      "name": "Exfabrica.io",
+      "name": "exFabrica.io",
       "email": "research@exfabrica.io",
       "url": "https://exfabrica.io"
     }

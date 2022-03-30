@@ -1,5 +1,5 @@
 # AWESOME SEO <!-- omit in toc -->
----
+
 
 
 - [DESCRIPTION](#description)
@@ -10,6 +10,8 @@
 - [WHAT IS INCLUDED IN OUR PLUGIN](#what-is-included-in-our-plugin)
 - [ROADMAP](#roadmap)
 
+
+> This plugin is still a work in progress
 
 ## DESCRIPTION  
 Awesome SEO allows your content manager in one click to get the results of your website SEO analysis directly available in Strapi.  
@@ -31,22 +33,34 @@ Screenshot to add for each feature.
 
 ## INSTALLATION  
 Prerequisites : Chrome must be installed on your server
+```bash
+#npm
+npm install @exfabrica/strapi-plugin-awesome-seo
+```
+```bash
+#yarn
+yarn add @exfabrica/strapi-plugin-awesome-seo
+```
 
 ## CONFIGURATION  
-1. In the general settings of Awesome SEO, enter your website *(1)* for which you want to improve the SEO and save your settings *(2)*.
-![Settings](./docs/imgs/01-Set_up_website.png)
+1. In the general settings of Awesome SEO, enter your website *(1)* for which you want to improve the SEO and save your settings *(2)*.  
+   
+![Settings](docs/imgs/01-Set_up_website.png)
 
 2. Open the plugin “Awesome SEO” and start by launching a scan of your website *(1)*  
-![Scan Website](./docs/imgs/02-Scan_website.png)  
+   
+![Scan Website](docs/imgs/02-Scan_website.png)  
 
 > ⏱**The scan can takes several minutes**  
 > ⚠️<span style="color:orange">**If you have activated the advanced parameters « find hidden links » the scan can be really long (we are currently working on an optimization for next version).**</span>
 
 3. See your results with a global sum-up of SEO errors for your website *(1)*, a sum-up by website page *(2)*, ordered by rank. You can then go deeper in the Strapi content page by clicking on the modification button *(3)* to solve your errors.  
-![Global results](./docs/imgs/03-Global_result_(simple).png) 
+   
+![Global results](docs/imgs/03-Global_result_(simple).png) 
 
 4. By clicking the modification button on previous screen you can see directly in your Strapi content type your tags *(1)* and SEO errors *(2)* and fix them. Awesome !  
-![Content page](./docs/imgs/04-content_page.png)  
+   
+![Content page](docs/imgs/04-content_page.png)  
 
 ### Our awesome tips …  
 * tip \#1 : in general settings you can activate an expert mode. You’ll get a different result overview with detailed information and 2 classifications of errors : fixable by the content manager, fixable by your website development team.  
@@ -58,7 +72,7 @@ Prerequisites : Chrome must be installed on your server
 
 
 ## WHAT IS INCLUDED IN OUR PLUGIN
-Our plugin is currently checking the following SEO rules (to be improved in coming versions) : [Implemented SEO rules](./docs/Implemented-SEO-rules.html).
+Our plugin is currently checking the following SEO rules (to be improved in coming versions) : [Implemented SEO rules](docs/Implemented-SEO-rules.html).
 
 ## ROADMAP
 Next step for the plugin : 
