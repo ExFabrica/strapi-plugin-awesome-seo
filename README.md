@@ -11,7 +11,9 @@
 - [ROADMAP](#roadmap)
 
 
-> This plugin is still a work in progress
+> *This plugin is still a work in progress and stay in a beta mode*.<br/>At this time, the plugin algorithm to make link between the front-end and Strapi backend has a good accuracy, 
+but, time to time, it can generate false-positive results.
+<br/>We are working hard to increase the performance and to refine the accuracy of the plugin.<br/>**Stay tuned!**
 
 ## DESCRIPTION  
 Awesome SEO allows your content manager in one click to get the results of your website SEO analysis directly available in Strapi.  
