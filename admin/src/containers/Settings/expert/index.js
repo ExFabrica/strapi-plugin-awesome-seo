@@ -6,7 +6,6 @@ import { Stack } from "@strapi/design-system/Stack";
 import { Main } from "@strapi/design-system/Main";
 import { ContentLayout } from "@strapi/design-system/Layout";
 import { Box } from "@strapi/design-system/Box";
-import { H2 } from "@strapi/design-system/Text";
 import { Button } from "@strapi/design-system/Button";
 import Check from "@strapi/icons/Check";
 import { HeaderLayout } from "@strapi/design-system/Layout";
@@ -167,11 +166,11 @@ const SettingsPage = () => {
                 paddingRight={7}
               >
                 <Stack size={3}>
-                  <H2>
+                  <h2>
                     {formatMessage({
                       id: getTrad("plugin.settings.advanced.title"),
                     })}
-                  </H2>
+                  </h2>
                   <Grid gap={6}>
                     <GridItem col={6} s={12}>
                       <ToggleInput
