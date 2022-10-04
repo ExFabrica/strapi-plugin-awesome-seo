@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "peerDependencies": {
-    "@strapi/strapi": "4.0.7"
+    "@strapi/strapi": "^4.0.0"
   },
   "author": {
     "name": "exFabrica.io",
