@@ -6,7 +6,6 @@ import { Stack } from '@strapi/design-system/Stack';
 import { Main } from '@strapi/design-system/Main';
 import { ContentLayout } from '@strapi/design-system/Layout';
 import { Box } from '@strapi/design-system/Box';
-import { H2 } from '@strapi/design-system/Text';
 import { TextInput } from '@strapi/design-system/TextInput';
 import { Button } from '@strapi/design-system/Button';
 import Plus from '@strapi/icons/Plus';
@@ -81,7 +80,7 @@ const SettingsMediaPage = () => {
                 paddingRight={7}
               >
                 <Stack size={3}>
-                <H2>Media Analyzer</H2>
+                <h2>Media Analyzer</h2>
                   <ToggleInput
                         checked={settings && settings.hasOwnProperty("medias") ? settings.medias.enabled : false}
                         hint={'Enable or disable the analyze of media\'s library'}

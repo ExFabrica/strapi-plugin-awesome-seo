@@ -6,7 +6,6 @@ import { Stack } from '@strapi/design-system/Stack';
 import { Main } from '@strapi/design-system/Main';
 import { ContentLayout } from '@strapi/design-system/Layout';
 import { Box } from '@strapi/design-system/Box';
-import { H2 } from '@strapi/design-system/Text';
 import { TextInput } from '@strapi/design-system/TextInput';
 import { Button } from '@strapi/design-system/Button';
 import Plus from '@strapi/icons/Plus';
@@ -81,7 +80,7 @@ const SettingsGreenPage = () => {
                 paddingRight={7}
               >
                 <Stack size={3}>
-                <H2>Green CMS Analyzer</H2>
+                <h2>Green CMS Analyzer</h2>
                   <ToggleInput
                         checked={settings && settings.hasOwnProperty("greenCms") ? settings.greenCms.enabled : false}
                         hint={'Enable or disable the green analyze'}
