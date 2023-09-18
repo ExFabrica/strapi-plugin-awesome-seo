@@ -1,7 +1,7 @@
 {
   "name": "@exfabrica/strapi-plugin-awesome-seo",
   "private": false,
-  "version": "1.0.0-beta.1.1",
+  "version": "1.0.0-beta.1.2",
   "description": "First exFabrica Strapi Plugin.",
   "strapi": {
     "name": "cms-analyzer",
@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "peerDependencies": {
-    "@strapi/strapi": "4.0.7"
+    "@strapi/strapi": "^4.0.7"
   },
   "author": {
     "name": "exFabrica.io",
